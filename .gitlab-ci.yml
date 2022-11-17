@@ -1,3 +1,6 @@
+variables:
+  SONAR_TOKEN: sqp_c180fbdad2fc5433fd2dbed5ca31c2f753ed6c44
+  SONAR_HOST_URL: http://localhost:9000/sonar
 stages:
   - sast
   - sca
